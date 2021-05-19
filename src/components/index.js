@@ -25,3 +25,12 @@ export const BtnPlay = styled.button `
    border: none;
    box-shadow: 3px 3px #9280D0;
 `
+
+export const BtnOptionPlayer = styled.button `
+    width: 95px;
+    height: 110px;
+    background-color: #CCC;
+    border: 2px solid #222;
+    border-radius: 4px;
+    cursor: pointer;
+`
