@@ -5,21 +5,25 @@ import {
   BoxDefault
 } from '../index'
 
-function Welcome() {
+import  {
+  BoxBtns
+} from './styles'
+
+function Options({ funcSetQtdPlayers }) {
     return (
       <BoxDefault>
         <Text ft={40}>ESCOLHA QUANTOS JOGADORES</Text>
-        <div style={{ width: '100%', display: 'flex', justifyContent: 'space-around', marginTop: 40 }} >
+        <BoxBtns>
           {
             [2, 3, 4, 5].map(e => (
-              <BtnOptionPlayer key={e}>
+              <BtnOptionPlayer key={e} onClick={() => funcSetQtdPlayers(e)}>
                 <Text ft={45}>{e}</Text>
               </BtnOptionPlayer>
             ))
           }
-        </div>
+        </BoxBtns>
       </BoxDefault>
     )
 }
 
-export default Welcome
+export default Options

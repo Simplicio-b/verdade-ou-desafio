@@ -4,7 +4,7 @@ export const Container = styled.div `
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(90deg, hsla(10, 100%, 66%, 0.8) 0%, hsla(290, 79%, 13%, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 153, 0, 1) 0%, rgba(61, 0, 121, 1) 100%);
 `
 
 export const Text = styled.p `
@@ -25,6 +25,7 @@ export const BtnPlay = styled.button `
    cursor: pointer;
    background-color: ${e => e.color || 'hsla(290, 79%, 13%, 0.8)'};
    border: none;
+   margin-top: 26px;
    box-shadow: 3px 3px hsla(10, 100%, 66%, 0.8);
    :hover {
        background-color: #408;
@@ -40,7 +41,7 @@ export const BtnOptionPlayer = styled.button `
     border-radius: 4px;
     cursor: pointer;
     :hover {
-        background-color: hsla(10, 100%, 66%, 0.5);
+        background-color: #A62800;
     }
 `
 
@@ -50,4 +51,17 @@ export const BoxDefault = styled.div `
     align-items: center;
     justify-content: center;
     flex-direction: column;
+`
+
+export const VddOuDesafioBtn = styled.button `
+    height: 50px;
+    width: 110px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: ${e => e.collor || '#f5f5f5'};
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+    box-shadow: -1px 1px #FFF;
+    font-weight: '700';
 `
