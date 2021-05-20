@@ -52,16 +52,3 @@ export const BoxDefault = styled.div `
     justify-content: center;
     flex-direction: column;
 `
-
-export const VddOuDesafioBtn = styled.button `
-    height: 50px;
-    width: 110px;
-    margin-left: 15px;
-    cursor: pointer;
-    background-color: ${e => e.collor || '#f5f5f5'};
-    border: none;
-    color: #ffff;
-    border-radius: 10px;
-    box-shadow: -1px 1px #FFF;
-    font-weight: '700';
-`

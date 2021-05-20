@@ -1,11 +1,11 @@
 // components
 import {
-    MainBox
+    MainBox,
+    VddOuDesafioBtn
 } from './style'
 
 import {
     Text,
-    VddOuDesafioBtn
 } from '../index'
 
 function Feedback({clearSelected, data}) {

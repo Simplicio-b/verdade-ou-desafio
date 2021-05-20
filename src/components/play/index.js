@@ -74,7 +74,7 @@ function Play({ data, funcCloseGame, playerSelected }) {
         <Header>
           <Text ft={50}>JOGAR</Text>
           <BtnClose onClick={funcCloseGame}>
-            <Text ft={40} color="hsla(10, 100%, 66%, 0.8)">X</Text>
+            <Text ft={40} color="#FFF">X</Text>
           </BtnClose>
         </Header>
 

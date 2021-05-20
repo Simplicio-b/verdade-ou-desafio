@@ -11,3 +11,18 @@ export const MainBox = styled.div `
     align-items: center;
     justify-content: center;
 `
+
+export const VddOuDesafioBtn = styled.button `
+    margin-top: 10px;
+    height: 55px;
+    width: 120px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: ${e => e.collor || '#f5f5f5'};
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+    box-shadow: -1px 1px #FFF;
+    font-size: 18px;
+    font-weight: 700;
+`

@@ -53,6 +53,6 @@ export const BtnClose = styled.button `
     height: 65px;
     width: 65px;
     background-color: transparent;
-    border: 2.5px solid hsla(10, 100%, 66%, 0.8);
+    border: 2.5px solid #FFF;
     cursor: pointer;
 `
