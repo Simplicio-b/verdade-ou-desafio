@@ -4,6 +4,15 @@ import {
   Text,
 } from '../index'
 
+import {
+  Box,
+  Header,
+  BoxRolette,
+  Btn,
+  Body,
+  BtnClose
+} from './styles'
+
 import { PieChart } from 'react-minimal-pie-chart'
 
 function Welcome() {
@@ -103,36 +112,34 @@ function Welcome() {
             contadorVezes++
           }
         }
-      }, 500)
-
-
-
+      }, 350)
     }
 
 
     return (
-      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', boxShadow: '2px 4px #000' }} >
-        <div>
-          <Text ft={55}>JOGAR</Text>
-           <button onClick={animationAndSelectOption} >PLAY</button> 
-        </div>
+      <Box>
+        
+        <Header>
+          <Text ft={50}>JOGAR</Text>
+          <BtnClose>
+            <Text ft={40} color="hsla(10, 100%, 66%, 0.8)">X</Text>
+          </BtnClose>
+        </Header>
 
-        <div style={{ 
-            height: 400, width: 400, borderRadius: '100%', 
-            border: '6px solid #FFF', overflow: 'hidden', 
-            boxShadow: "-4px 3px #0009"
-          }} 
-        >
-          <PieChart
-            lineWidth={80}
-            label={(el) => el.dataEntry.title}
-            labelPosition={68}
-            labelStyle={{ fontSize: 9 }}
-            animate
-            data={dataALL} 
-          />
-        </div>
-      </div>
+        <Body>
+          <BoxRolette>
+            <PieChart
+              lineWidth={90}
+              label={(el) => el.dataEntry.title}
+              labelPosition={68}
+              labelStyle={{ fontSize: 9 }}
+              animate
+              data={dataALL} 
+            />
+          </BoxRolette>
+          <Btn onClick={animationAndSelectOption} >PLAY</Btn> 
+        </Body>
+      </Box>
     )
 }
 

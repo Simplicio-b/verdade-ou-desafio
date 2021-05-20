@@ -14,8 +14,8 @@ function App() {
   return (
     <Container>
       {!true && (<Welcome />)}
-      {!true && (<Options />)}
-      {true && (<Play />)}
+      {true && (<Options />)}
+      {!true && (<Play />)}
     </Container>
   )
 }
