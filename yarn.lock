@@ -1415,6 +1415,21 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@feizheng/noop@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@feizheng/noop/-/noop-1.0.0.tgz#5470a9651f9f9e1e5b820bab41a115faed9ff3bd"
+  integrity sha512-6H9iDDDmh54H+k7nFjopXdnZ95RMgZqP/+StPq02saKdt9JU6EBmqakmZD6Rp06ywrNAEYHiCnUiFGqgRILPbQ==
+
+"@feizheng/react-svg-circle@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@feizheng/react-svg-circle/-/react-svg-circle-1.1.3.tgz#325a4c081f2b8713fe4ca43830cff8b7ffaec089"
+  integrity sha512-HNDOi+cpCvQJ1Mn0B25X06j2Oe7nYDkszqCm47Ypuc8dH4KUX5A9CVrmZpUHzhFqRUYemxc6kDOyUgl9B8B31A==
+  dependencies:
+    "@feizheng/noop" "^1.0.0"
+    classnames "^2.2.6"
+    object-assign "^4.1.1"
+    prop-types "^15.7.2"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -3561,6 +3576,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.6:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 clean-css@^4.2.3:
   version "4.2.3"
@@ -9533,7 +9553,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9783,6 +9803,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-minimal-pie-chart@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/react-minimal-pie-chart/-/react-minimal-pie-chart-8.2.0.tgz#22b53af2363f040d818331721658dfa7a1ea847a"
+  integrity sha512-RhrHzprJt3KfBe4L3sE0Ha6fj4kYcwQtesQgscnld9Umf64+nZnxxInycnbimKsbIjxJONv77JIZp+qRbJD+bA==
+
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
@@ -9853,6 +9878,18 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-svg-donut@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/react-svg-donut/-/react-svg-donut-0.1.7.tgz#553a98ef7b01abc6e607f72a8f54ec13093cd463"
+  integrity sha512-B383fqsTyYvzHvjQnSKCuPnibEtQf2mP/x3dErbJvyCnWHM/E8qv5G7YdcibXkghNZXo/M+CtKrKeYEA8ErlqA==
+  dependencies:
+    prop-types "^15.6.2"
+
+react-svg-donuts@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-svg-donuts/-/react-svg-donuts-2.0.1.tgz#de82a638bd7cdc02ee49c5c92ea11031f86c0679"
+  integrity sha512-5lvE6/UQvy66/ixIcuBGXShVa3+B/I3fsUKXV6w4Tan6Ak5RqqB38Xce+O1wyXA1r/t8bWhvS4WkdQ4Y9SRSyQ==
 
 react@^17.0.2:
   version "17.0.2"
