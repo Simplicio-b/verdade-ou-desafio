@@ -1,6 +1,6 @@
 # Verdade ou desafio
 
-Esse projeto foi realizado para demonstrar como um jogo de verdade ou desafio funcionaria num ambiente web
+Esse projeto foi realizado para demonstrar como um jogo de verdade ou desafio funcionaria num ambiente web, a prototipação foi realizada com o figma e você pode visualizar a mesma [clicando aqui](https://www.figma.com/file/VRu5o8NbDdGC0QWRC3KKwY/VERDADE-OU-DESAFIO?node-id=28%3A13).
 
 ### Libs utilizadas no projeto
 
